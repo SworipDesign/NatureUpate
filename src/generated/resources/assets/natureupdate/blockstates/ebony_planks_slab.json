@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "natureupdate:block/ebony_planks_slab"
+    },
+    "type=double": {
+      "model": "natureupdate:block/ebony_planks"
+    },
+    "type=top": {
+      "model": "natureupdate:block/ebony_planks_slab_top"
+    }
+  }
+}

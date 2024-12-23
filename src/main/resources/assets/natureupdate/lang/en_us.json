@@ -1,0 +1,52 @@
+{
+  "creativetab.natureupdate.nature_items": "Nature Update Mod - Items",
+  "creativetab.natureupdate.nature_blocks": "Nature Update Mod - Blocks",
+
+  "tag.natureupdate.compostable_items": "Compostable Items",
+
+  "item.natureupdate.tomato": "Tomato",
+  "item.natureupdate.corn": "Corn",
+  "item.natureupdate.broccoli": "Broccoli",
+
+  "block.natureupdate.tomato_crop": "Tomato Crop",
+  "block.natureupdate.corn_crop": "Corn Crop",
+  "block.natureupdate.broccoli_crop": "Broccoli Crop",
+
+  "item.natureupdate.tomato_seeds": "Tomato Seeds",
+  "item.natureupdate.corn_seeds": "Corn Seeds",
+  "item.natureupdate.broccoli_seeds": "Broccoli Seeds",
+
+  "block.natureupdate.ebony_log": "Ebony Log",
+  "block.natureupdate.stripped_ebony_log": "Stripped Ebony Log",
+  "block.natureupdate.ebony_planks": "Ebony Planks",
+
+  "block.natureupdate.ebony_planks_stairs": "Ebony Planks Stairs",
+  "block.natureupdate.ebony_planks_slab": "Ebony Planks Slab",
+  "block.natureupdate.ebony_planks_button": "Ebony Planks Button",
+  "block.natureupdate.ebony_planks_pressure_plate": "Ebony Planks Pressure Plate",
+  "block.natureupdate.ebony_planks_fence": "Ebony Planks Fence",
+  "block.natureupdate.ebony_planks_fence_gate": "Ebony Planks Fence Gate",
+  "block.natureupdate.ebony_planks_wall": "Ebony Planks Wall",
+  "block.natureupdate.ebony_planks_door": "Ebony Planks Door",
+  "block.natureupdate.ebony_planks_trapdoor": "Ebony Planks Trapdoor",
+
+  "block.natureupdate.ebony_log_stairs": "Ebony Log Stairs",
+  "block.natureupdate.ebony_log_slab": "Ebony Log Slab",
+  "block.natureupdate.ebony_log_button": "Ebony Log Button",
+  "block.natureupdate.ebony_log_pressure_plate": "Ebony Log Pressure Plate",
+  "block.natureupdate.ebony_log_fence": "Ebony Log Fence",
+  "block.natureupdate.ebony_log_fence_gate": "Ebony Log Fence Gate",
+  "block.natureupdate.ebony_log_wall": "Ebony Log Wall",
+  "block.natureupdate.ebony_log_door": "Ebony Log Door",
+  "block.natureupdate.ebony_log_trapdoor": "Ebony Log Trapdoor",
+
+  "block.natureupdate.stripped_ebony_log_stairs": "Stripped Ebony Log Stairs",
+  "block.natureupdate.stripped_ebony_log_slab": "Stripped Ebony Log Slab",
+  "block.natureupdate.stripped_ebony_log_button": "Stripped Ebony Log Button",
+  "block.natureupdate.stripped_ebony_log_pressure_plate": "Stripped Ebony Log Pressure Plate",
+  "block.natureupdate.stripped_ebony_log_fence": "Stripped Ebony Log Fence",
+  "block.natureupdate.stripped_ebony_log_fence_gate": "Stripped Ebony Log Fence Gate",
+  "block.natureupdate.stripped_ebony_log_wall": "Stripped Ebony Log Wall",
+  "block.natureupdate.stripped_ebony_log_door": "Stripped Ebony Log Door",
+  "block.natureupdate.stripped_ebony_log_trapdoor": "Stripped Ebony Log Trapdoor"
+}

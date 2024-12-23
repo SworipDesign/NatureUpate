@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "natureupdate:block/stripped_ebony_log",
+    "side": "natureupdate:block/stripped_ebony_log",
+    "top": "natureupdate:block/stripped_ebony_log"
+  }
+}

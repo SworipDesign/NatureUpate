@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "natureupdate:block/ebony_log_door_bottom",
+    "top": "natureupdate:block/ebony_log_door_top"
+  }
+}

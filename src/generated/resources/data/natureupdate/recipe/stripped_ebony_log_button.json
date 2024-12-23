@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "ebony",
+  "ingredients": [
+    {
+      "item": "natureupdate:stripped_ebony_log"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "natureupdate:stripped_ebony_log_button"
+  }
+}

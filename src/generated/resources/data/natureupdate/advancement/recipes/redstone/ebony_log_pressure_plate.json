@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ebony_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "natureupdate:ebony_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "natureupdate:ebony_log_pressure_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ebony_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "natureupdate:ebony_log_pressure_plate"
+    ]
+  }
+}

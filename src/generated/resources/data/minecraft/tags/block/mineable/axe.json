@@ -1,0 +1,31 @@
+{
+  "values": [
+    "natureupdate:ebony_log",
+    "natureupdate:stripped_ebony_log",
+    "natureupdate:ebony_planks",
+    "natureupdate:ebony_planks_stairs",
+    "natureupdate:ebony_planks_slab",
+    "natureupdate:ebony_planks_pressure_plate",
+    "natureupdate:ebony_planks_fence",
+    "natureupdate:ebony_planks_fence_gate",
+    "natureupdate:ebony_planks_trapdoor",
+    "natureupdate:ebony_planks_wall",
+    "natureupdate:ebony_planks_door",
+    "natureupdate:ebony_log_stairs",
+    "natureupdate:ebony_log_slab",
+    "natureupdate:ebony_log_pressure_plate",
+    "natureupdate:ebony_log_fence",
+    "natureupdate:ebony_log_fence_gate",
+    "natureupdate:ebony_log_trapdoor",
+    "natureupdate:ebony_log_wall",
+    "natureupdate:ebony_log_door",
+    "natureupdate:stripped_ebony_log_stairs",
+    "natureupdate:stripped_ebony_log_slab",
+    "natureupdate:stripped_ebony_log_pressure_plate",
+    "natureupdate:stripped_ebony_log_fence",
+    "natureupdate:stripped_ebony_log_fence_gate",
+    "natureupdate:stripped_ebony_log_trapdoor",
+    "natureupdate:stripped_ebony_log_wall",
+    "natureupdate:stripped_ebony_log_door"
+  ]
+}

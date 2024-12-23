@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "natureupdate:item/stripped_ebony_log_door"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "ebony",
+  "key": {
+    "#": {
+      "item": "natureupdate:stripped_ebony_log"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "id": "natureupdate:stripped_ebony_log_door"
+  }
+}

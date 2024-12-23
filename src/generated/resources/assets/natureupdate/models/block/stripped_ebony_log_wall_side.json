@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "natureupdate:block/stripped_ebony_log"
+  }
+}

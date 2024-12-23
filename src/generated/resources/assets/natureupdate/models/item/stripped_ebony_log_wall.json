@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "natureupdate:block/stripped_ebony_log"
+  }
+}

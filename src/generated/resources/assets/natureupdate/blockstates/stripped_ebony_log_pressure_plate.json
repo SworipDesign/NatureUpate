@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "natureupdate:block/stripped_ebony_log_pressure_plate"
+    },
+    "powered=true": {
+      "model": "natureupdate:block/stripped_ebony_log_pressure_plate_down"
+    }
+  }
+}
