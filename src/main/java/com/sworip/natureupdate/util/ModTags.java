@@ -10,16 +10,12 @@ import net.minecraft.world.level.block.Block;
 
 public class ModTags {
     public static class Blocks {
-//        public static final TagKey<Block> WOODS = createTag("new_woods");
-
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(NatureUpdateMod.MOD_ID, name));
         }
     }
 
     public static class Items {
-//        public static final TagKey<Item> COMPOSTABLE_ITEMS = createTag("compostable_items");
-
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(NatureUpdateMod.MOD_ID, name));
         }

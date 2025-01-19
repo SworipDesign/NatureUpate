@@ -19,6 +19,8 @@ public class ModCreativeModeTabs {
         () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.EBONY_LOG))
             .title(Component.translatable("creativetab.natureupdate.nature_update"))
             .displayItems((itemDisplayParameters, output) -> {
+                    //-----*[ Berry ]*-----
+                    output.accept(ModItems.GOJI_BERRY);
                     //-----*[ Woods ]*-----
                     //Ebony
                     output.accept(ModBlocks.EBONY_LOG);
@@ -28,6 +30,14 @@ public class ModCreativeModeTabs {
                     output.accept(ModBlocks.EBONY_PLANKS);
                     output.accept(ModBlocks.EBONY_LEAVES);
                     output.accept(ModBlocks.EBONY_SAPLING);
+                    //Pine
+                    output.accept(ModBlocks.PINE_LOG);
+                    output.accept(ModBlocks.STRIPPED_PINE_LOG);
+                    output.accept(ModBlocks.PINE_WOOD);
+                    output.accept(ModBlocks.STRIPPED_PINE_WOOD);
+                    output.accept(ModBlocks.PINE_PLANKS);
+                    output.accept(ModBlocks.PINE_LEAVES);
+                    output.accept(ModBlocks.PINE_SAPLING);
                     //-----*[ Ebony Planks Non Blocks ]*-----
                     output.accept(ModBlocks.EBONY_PLANKS_STAIRS);
                     output.accept(ModBlocks.EBONY_PLANKS_SLAB);

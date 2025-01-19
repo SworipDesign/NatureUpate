@@ -1,5 +1,6 @@
 package com.sworip.natureupdate.datagen;
 
+import com.sworip.natureupdate.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Items;
@@ -16,7 +17,7 @@ public class ModDataMapProvider extends DataMapProvider {
 
     @Override
     protected void gather() {
-//        this.builder(NeoForgeDataMaps.COMPOSTABLES)
-//                .add(Items.STICK.(), new Compostable(0.25f), false);
+        this.builder(NeoForgeDataMaps.COMPOSTABLES)
+                .add(ModItems.GOJI_BERRY.getId(), new Compostable(0.15f), false);
     }
 }

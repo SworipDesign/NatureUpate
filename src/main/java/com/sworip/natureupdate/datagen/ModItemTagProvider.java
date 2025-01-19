@@ -27,10 +27,17 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.EBONY_LOG.get().asItem())
                 .add(ModBlocks.EBONY_WOOD.get().asItem())
                 .add(ModBlocks.STRIPPED_EBONY_LOG.get().asItem())
-                .add(ModBlocks.STRIPPED_EBONY_WOOD.get().asItem());
+                .add(ModBlocks.STRIPPED_EBONY_WOOD.get().asItem())
+                .add(ModBlocks.PINE_LOG.get().asItem())
+                .add(ModBlocks.PINE_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_PINE_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_PINE_WOOD.get().asItem());
 
         this.tag(ItemTags.PLANKS)
-                .add(ModBlocks.EBONY_PLANKS.asItem());
+                .add(ModBlocks.EBONY_PLANKS.asItem())
+                .add(ModBlocks.PINE_PLANKS.asItem());
+
+//        this.tag(ItemTags.)
     }
 }
 

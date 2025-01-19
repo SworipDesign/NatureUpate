@@ -1,4 +1,4 @@
-package com.sworip.natureupdate.block.trees;
+package com.sworip.natureupdate.block.tree;
 
 import com.sworip.natureupdate.block.ModBlocks;
 import net.minecraft.core.BlockPos;

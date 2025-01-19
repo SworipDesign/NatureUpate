@@ -22,9 +22,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //------------------*[ SAPLINGS ]*------------------
         saplingItem(ModBlocks.EBONY_SAPLING);
-
-        //------------------*[ BUSHES ]*------------------
-
+        saplingItem(ModBlocks.PINE_SAPLING);
+        //------------------*[ BERRY ]*------------------
+        basicItem(ModItems.GOJI_BERRY.get());
         //------------------*[ NON BLOCKS ]*------------------
         //---*[ Ebony Planks ]*---
         buttonItem(ModBlocks.EBONY_PLANKS_BUTTON, ModBlocks.EBONY_PLANKS);
@@ -41,7 +41,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.STRIPPED_EBONY_LOG_FENCE, ModBlocks.STRIPPED_EBONY_LOG);
         wallItem(ModBlocks.STRIPPED_EBONY_LOG_WALL, ModBlocks.STRIPPED_EBONY_LOG);
         basicItem(ModBlocks.STRIPPED_EBONY_LOG_DOOR.asItem());
-        //------------------*[ MEALS ]*------------------
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {

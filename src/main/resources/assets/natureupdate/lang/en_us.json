@@ -6,6 +6,13 @@
   "block.natureupdate.ebony_wood": "Ebony Wood",
   "block.natureupdate.stripped_ebony_wood": "Stripped Ebony Wood",
   "block.natureupdate.ebony_planks": "Ebony Planks",
+  "block.natureupdate.ebony_leaves": "Ebony Leaves",
+  "block.natureupdate.pine_log": "Pine Log",
+  "block.natureupdate.stripped_pine_log": "Stripped Pine Log",
+  "block.natureupdate.pine_wood": "Pine Wood",
+  "block.natureupdate.stripped_pine_wood": "Stripped Pine Wood",
+  "block.natureupdate.pine_planks": "Pine Planks",
+  "block.natureupdate.pine_leaves": "Pine Leaves",
 
   "block.natureupdate.ebony_planks_stairs": "Ebony Planks Stairs",
   "block.natureupdate.ebony_planks_slab": "Ebony Planks Slab",
@@ -37,5 +44,10 @@
   "block.natureupdate.stripped_ebony_log_door": "Stripped Ebony Log Door",
   "block.natureupdate.stripped_ebony_log_trapdoor": "Stripped Ebony Log Trapdoor",
 
-  "block.natureupdate.ebony_sapling": "Ebony Sapling"
+  "block.natureupdate.goji_berry_bush": "Goji Berry Bush",
+
+  "block.natureupdate.ebony_sapling": "Ebony Sapling",
+  "block.natureupdate.pine_sapling": "Pine Sapling",
+
+  "item.natureupdate.goji_berry": "Goji Berry"
 }

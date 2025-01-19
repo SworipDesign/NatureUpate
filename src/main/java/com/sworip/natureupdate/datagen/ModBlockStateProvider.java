@@ -2,12 +2,14 @@ package com.sworip.natureupdate.datagen;
 
 import com.sworip.natureupdate.NatureUpdateMod;
 import com.sworip.natureupdate.block.ModBlocks;
+import com.sworip.natureupdate.block.bush.GojiBerryBushBlock;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.SweetBerryBushBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
@@ -26,7 +28,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         //------------------*[ BUSH ]*------------------
-
+        makeBush(((SweetBerryBushBlock) ModBlocks.GOJI_BERRY_BUSH.get()), "goji_berry_bush_stage", "goji_berry_bush_stage");
         //------------------*[ WOODS ]*------------------
         //---*[ Ebony ]*---
         logBlock(((RotatedPillarBlock) ModBlocks.EBONY_LOG.get()));
@@ -38,11 +40,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.EBONY_WOOD);
         blockItem(ModBlocks.STRIPPED_EBONY_LOG);
         blockItem(ModBlocks.STRIPPED_EBONY_WOOD);
-
         blockWithItem(ModBlocks.EBONY_PLANKS);
-
         leavesBlock(ModBlocks.EBONY_LEAVES);
         saplingBlock(ModBlocks.EBONY_SAPLING);
+        //---*[ Pine ]*---
+        logBlock(((RotatedPillarBlock) ModBlocks.PINE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.PINE_WOOD.get()), blockTexture(ModBlocks.PINE_LOG.get()), blockTexture(ModBlocks.PINE_LOG.get()));
+        logBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_PINE_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_PINE_WOOD.get()), blockTexture(ModBlocks.STRIPPED_PINE_LOG.get()), blockTexture(ModBlocks.STRIPPED_PINE_LOG.get()));
+
+        blockItem(ModBlocks.PINE_LOG);
+        blockItem(ModBlocks.PINE_WOOD);
+        blockItem(ModBlocks.STRIPPED_PINE_LOG);
+        blockItem(ModBlocks.STRIPPED_PINE_WOOD);
+        blockWithItem(ModBlocks.PINE_PLANKS);
+        leavesBlock(ModBlocks.PINE_LEAVES);
+        saplingBlock(ModBlocks.PINE_SAPLING);
         //------------------*[ NON BLOCKS ]*------------------
         //---*[ Ebony Planks ]*---
         stairsBlock(ModBlocks.EBONY_PLANKS_STAIRS.get(), blockTexture(ModBlocks.EBONY_PLANKS.get()));
@@ -89,6 +102,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STRIPPED_EBONY_LOG_PRESSURE_PLATE);
         blockItem(ModBlocks.STRIPPED_EBONY_LOG_FENCE_GATE);
         blockItem(ModBlocks.STRIPPED_EBONY_LOG_TRAPDOOR, "_bottom");
+    }
+
+    public void makeBush(SweetBerryBushBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> states(state, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] states(BlockState state, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().cross(modelName + state.getValue(GojiBerryBushBlock.AGE),
+                ResourceLocation.fromNamespaceAndPath(NatureUpdateMod.MOD_ID, "block/" + textureName + state.getValue(GojiBerryBushBlock.AGE))).renderType("cutout"));
+
+        return models;
     }
 
     private void saplingBlock(DeferredBlock<Block> blockRegistryObject) {
